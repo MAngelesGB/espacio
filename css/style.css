@@ -1,11 +1,13 @@
-/*Valores estandar*/
+/*------------------------------> Valores estandar <------------------------*/
 body{
     margin: 0; 
     padding: 0; 
     font-family: 'PT Sans', sans-serif;
+    background-color: #0e131f;
+    color: white;
 }
 
-/*Apartado de navegacion*/
+/* ----------------------------> Apartado de navegacion <-------------------------*/
 
 header{
     background-color: #010003;
@@ -42,7 +44,7 @@ header .nav-left-section a:hover
     text-decoration: underline;
 }
 
-/*Titulo de la pagina*/
+/* ---------------------------------> Titulo de la pagina <--------------------------------*/
 
 #inicio{
     width: 100%;
@@ -68,4 +70,231 @@ header .nav-left-section a:hover
     text-align: center;
 }
 
+/*---------------------------> Cuerpo de la pagina <-------------------------*/
+
+/* #### Significado - Informacion #### */
+
+
+.significadoFormacion
+{
+    width: 100%;
+    height: auto;
+    margin: 55px 0px 55px; 
+}
+
+.significadoFormacion .tituloSeccion{
+    text-align: center;
+    font-size: 40px;
+}
+.informacion .parrafos{
+    padding-left: 15px; 
+    border-left: 4px solid white;
+}
+
+/*significado*/
+.significado{
+    width: 100%;
+    height: auto;
+    display: flex; /*Convertimos al menú en flexbox*/
+    justify-content:space-between; /*Con esto le indicamos que margine todos los items que se encuentra adentro hacia la derecha e izquierda*/
+    align-items: center;
+}
+
+.significado .informacion{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    font-size: 18.5px;
+    margin: 0 auto; 
+    padding-left: 15px; 
+}
+
+.significado .imgQueEs
+{
+    margin: 0px auto; 
+    padding-top: 50px;
+}
+
+.significado .imgQueEs img{
+    width: 400px;
+    height: 250px;
+}
+
+/*Formacion*/
+
+.formacion{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    display: flex; /*Convertimos al menú en flexbox*/
+    justify-content:space-between; /*Con esto le indicamos que margine todos los items que se encuentra adentro hacia la derecha e izquierda*/
+    align-items: center;
+}
+
+.formacion .informacion{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    font-size: 18.5px;
+    margin: 15px auto; 
+    padding-left: 15px;
+}
+
+.formacion .imgFormacion{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.formacion .imgFormacion img{
+    width: 400px;
+    height: 250px;
+}
+
+/*##### Tipos de agujeros negros #####*/
+
+.tiposAgujerosNegros{
+    width: 100%;
+    height: auto;
+    margin: 55px 0px 55px; 
+}
+
+.tiposAgujerosNegros .tituloSeccion
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Einstein*/
+
+.einstein h2{
+    text-align: center;
+}
+
+.tiposAgujerosNegros .einstein ul li{
+    width: 18.5%;
+    height: auto;
+    margin: 20px; 
+    text-align: center;
+    font-size: 18.5px;
+}
+
+.einstein li p{
+    text-align: justify;
+}
+
+.tiposAgujerosNegros .einstein ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Masa*/
+
+.masa h2{
+    text-align: center; 
+}
+
+.tiposAgujerosNegros .masa ul li{  
+    width: 18.5%;
+    height: auto;
+    margin: 20px; 
+    text-align: center;
+    font-size: 18.5px;
+}
+
+.masa li p{
+    text-align: justify;
+}
+
+.tiposAgujerosNegros .masa ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Origen*/
+
+.origen h2{
+    text-align: center;
+}
+
+.tiposAgujerosNegros .origen ul li{
+    width: 18.5%;
+    height: auto;
+    margin: 20px; 
+    text-align: center;
+    font-size: 18.5px;
+}
+
+.origen li p{
+    text-align: justify;
+}
+
+.tiposAgujerosNegros .origen ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*##### Caracteristicas #####*/
+
+.caracteristicas{
+    width: 100%;
+    height: auto;
+}
+
+.caracteristicas .tituloSeccion{
+    text-align: center;
+    font-size: 40px;
+}
+
+.caracteristicas .agujerosNegrosCaracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agujerosNegrosCaracteristicas ul{
+    width: 45%;
+    height: auto;
+    text-align: justify;
+}
+
+.agujerosNegrosCaracteristicas ul li{
+    font-size: 18.5px;
+}
+
+
+
+/*##### Articulos #####*/
+
+.articulos .tituloSeccion{
+    text-align: center;
+    font-size: 40px;
+}
+
+.agujerosNegrosArticulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Einstein articulo*/
+.agujerosNegrosArticulos .einsteinArticulo{
+    display: flex;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+.agujerosNegrosArticulos .einsteinArticulo img{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+
+}
+
+/*Aguejro negro super masivo*/
 
