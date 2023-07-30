@@ -267,8 +267,6 @@ header .nav-left-section a:hover
     font-size: 18.5px;
 }
 
-
-
 /*##### Articulos #####*/
 
 .articulos .tituloSeccion{
@@ -278,23 +276,64 @@ header .nav-left-section a:hover
 
 .agujerosNegrosArticulos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 /*Einstein articulo*/
-.agujerosNegrosArticulos .einsteinArticulo{
+.agujerosNegrosArticulos .agujeroTierra{
+    width: 100%;
+    height: auto;
     display: flex;
     display: inline-flex; 
     justify-content: center;
     align-items: center;
 }
-.agujerosNegrosArticulos .einsteinArticulo img{
+.agujerosNegrosArticulos .agujeroTierra img{
     width: 150px;
-    height: 150px;
+    height: 100px;
     margin-right: 50px;
 
 }
 
-/*Aguejro negro super masivo*/
+/*Agujero negro super masivo*/
 
+.agujerosNegrosArticulos .agujeroNegroSuperMasivo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.agujerosNegrosArticulos .agujeroNegroSuperMasivo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+/**Objeto cosmico*/
+
+.agujerosNegrosArticulos .objetoCosmico{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.agujerosNegrosArticulos .objetoCosmico img{
+    width: 150px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #515357;
+    position: absolute;
+}
