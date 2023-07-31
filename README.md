@@ -16,3 +16,4 @@ Si bien su diseño es sencillo, va acorde al tema respetando el orden de los ele
 las propiedades de estilo explicadas a lo largo del mismo. 
 
 ## Link de acceso 👽
+https://space-blackholes.netlify.app
