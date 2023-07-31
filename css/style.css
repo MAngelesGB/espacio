@@ -10,13 +10,12 @@ body{
 /* ----------------------------> Apartado de navegacion <-------------------------*/
 
 header{
-    background-color: #010003;
-}
-
-header{
+    background-color: #010003; 
     width: 100%;
     height: 80px;
     font-weight: bold;
+    position: fixed;
+    box-shadow: 10px 3px 14px -4px rgba(0,0,0,0.44);
 }
 
 header nav{
@@ -56,6 +55,7 @@ header .nav-left-section a:hover
     background-size: 100% 100%; 
     display: flex;
     justify-content: center;
+    box-shadow: 10px 3px 14px -4px rgba(0,0,0,0.44);
 }
 
 
@@ -119,7 +119,8 @@ header .nav-left-section a:hover
     width: 400px;
     height: 250px;
     border: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
+    box-shadow: -3px 0px 47px -4px rgba(0,0,0,0.45);
 }
 
 /*Formacion*/
@@ -150,9 +151,9 @@ header .nav-left-section a:hover
 .formacion .imgFormacion img{
     width: 400px;
     height: 250px;
-    border-radius: 50px;
+    border-radius: 10px;
+    box-shadow: -3px 0px 47px -4px rgba(0,0,0,0.45);
 }
-
 /*##### Tipos de agujeros negros #####*/
 
 .tiposAgujerosNegros{
@@ -306,7 +307,7 @@ header .nav-left-section a:hover
     align-items: center; 
 }
 
-/*Einstein articulo*/
+/*Agujero tierra*/
 .agujerosNegrosArticulos .agujeroTierra{
     width: 50%;
     height: 130px;
@@ -317,6 +318,7 @@ header .nav-left-section a:hover
     background-color: #212235;
     margin: 30px;
     border-radius: 10px;
+    box-shadow: -3px 0px 47px -4px rgba(0,0,0,0.45);
 }
 .agujerosNegrosArticulos .agujeroTierra img{
     width: 150px;
@@ -348,6 +350,7 @@ header .nav-left-section a:hover
     background-color: #212235;
     margin: 30px;
     border-radius: 10px;
+    box-shadow: -3px 0px 47px -4px rgba(0,0,0,0.45);
 }
 
 .agujerosNegrosArticulos .agujeroNegroSuperMasivo img{
@@ -379,6 +382,7 @@ header .nav-left-section a:hover
     background-color: #212235;
     margin: 30px;
     border-radius: 10px;
+    box-shadow: -3px 0px 47px -4px rgba(0,0,0,0.45);
 }
 
 
@@ -409,6 +413,27 @@ footer{
     position: absolute;
     margin-top: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: -6px -1px 14px -4px rgba(0,0,0,0.44);
+}
+
+footer .iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+footer .iconos i{
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-in;
+    margin-right: 20px;
+}
+
+footer .iconos a{
+    text-decoration: none;
 }
