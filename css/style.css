@@ -118,6 +118,8 @@ header .nav-left-section a:hover
 .significado .imgQueEs img{
     width: 400px;
     height: 250px;
+    border: 10px;
+    border-radius: 50px;
 }
 
 /*Formacion*/
@@ -148,6 +150,7 @@ header .nav-left-section a:hover
 .formacion .imgFormacion img{
     width: 400px;
     height: 250px;
+    border-radius: 50px;
 }
 
 /*##### Tipos de agujeros negros #####*/
@@ -176,10 +179,17 @@ header .nav-left-section a:hover
     margin: 20px; 
     text-align: center;
     font-size: 18.5px;
+    padding-right: 30px
 }
 
 .einstein li p{
     text-align: justify;
+}
+
+.einstein .schwarzschild, 
+.einstein .kerr,
+.einstein .reissner{
+    border-right: 4px solid white;
 }
 
 .tiposAgujerosNegros .einstein ul{
@@ -201,10 +211,16 @@ header .nav-left-section a:hover
     margin: 20px; 
     text-align: center;
     font-size: 18.5px;
+    padding-right: 30px
 }
 
 .masa li p{
     text-align: justify;
+}
+
+.masa .micro, .masa .estelar, 
+.masa .intermedia{
+    border-right: 4px solid white;
 }
 
 .tiposAgujerosNegros .masa ul{
@@ -226,10 +242,16 @@ header .nav-left-section a:hover
     margin: 20px; 
     text-align: center;
     font-size: 18.5px;
+    padding-right: 30px;
 }
+
 
 .origen li p{
     text-align: justify;
+}
+
+.origen .negrosEstelares{
+    border-right: 4px solid white;
 }
 
 .tiposAgujerosNegros .origen ul{
@@ -258,13 +280,14 @@ header .nav-left-section a:hover
 }
 
 .agujerosNegrosCaracteristicas ul{
-    width: 45%;
+    width: 50%;
     height: auto;
-    text-align: justify;
+    text-align: justify; 
 }
 
 .agujerosNegrosCaracteristicas ul li{
     font-size: 18.5px;
+    margin-bottom: 25px;
 }
 
 /*##### Articulos #####*/
@@ -274,56 +297,90 @@ header .nav-left-section a:hover
     font-size: 40px;
 }
 
-.agujerosNegrosArticulos{
+.articulos .agujerosNegrosArticulos{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 /*Einstein articulo*/
 .agujerosNegrosArticulos .agujeroTierra{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 130px;
     display: flex;
     display: inline-flex; 
     justify-content: center;
     align-items: center;
+    background-color: #212235;
+    margin: 30px;
+    border-radius: 10px;
 }
 .agujerosNegrosArticulos .agujeroTierra img{
     width: 150px;
     height: 100px;
     margin-right: 50px;
+}
 
+.agujerosNegrosArticulos .agujeroTierra a{
+    text-decoration: none;
+    color: white;
+}
+
+.agujerosNegrosArticulos .agujeroTierra p{
+    width: 30%;
+    height: auto;
+    text-align: justify;
+    font-weight: bold;
 }
 
 /*Agujero negro super masivo*/
 
 .agujerosNegrosArticulos .agujeroNegroSuperMasivo{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 130px;
     display: flex;
     display: inline-flex; 
     justify-content: center;
     align-items: center;
+    background-color: #212235;
+    margin: 30px;
+    border-radius: 10px;
 }
 
 .agujerosNegrosArticulos .agujeroNegroSuperMasivo img{
-    width: 100px;
+    width: 130px;
     height: 100px;
     margin-right: 50px;
+}
+
+.agujerosNegrosArticulos .agujeroNegroSuperMasivo a{
+    text-decoration: none;
+    color:white; 
+}
+
+.agujerosNegrosArticulos .agujeroNegroSuperMasivo p{
+    width: 30%;
+    text-align: justify;
+    font-weight: bold;
 }
 
 /**Objeto cosmico*/
 
 .agujerosNegrosArticulos .objetoCosmico{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 130px;
     display: flex;
     display: inline-flex; 
     justify-content: center;
     align-items: center;
+    background-color: #212235;
+    margin: 30px;
+    border-radius: 10px;
 }
+
 
 .agujerosNegrosArticulos .objetoCosmico img{
     width: 150px;
@@ -331,9 +388,27 @@ header .nav-left-section a:hover
     margin-right: 50px;
 }
 
+.agujerosNegrosArticulos .objetoCosmico a{
+    text-decoration: none;
+    color: white;
+}
+
+.agujerosNegrosArticulos .objetoCosmico p{
+    width: 30%;
+    height: auto;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/*#### FOOTER ####*/
+
 footer{
     width: 100%;
-    height: auto;
-    background-color: #515357;
+    height: 200px;
+    background-color: #131622;
     position: absolute;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
